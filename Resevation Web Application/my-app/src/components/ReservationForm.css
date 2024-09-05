@@ -1,0 +1,266 @@
+/* ReservationForm.css */
+
+/* Container for the reservation form */
+.reservation-form-container {
+  position: absolute; /* Allow form to be positioned absolutely */
+  top: 20;
+  right: 50;
+  width: 50%; /* Set width to 50% */
+  background: #fff; /* Background color for the form */
+  padding: 50px; /* Padding around the form content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+  z-index: 100; /* Ensure the form overlaps other content */
+}
+
+.reservation-form-container h2 {
+  font-size: 24px; /* Increase font size for the form heading */
+  margin: 0;
+}
+
+.guest-details-heading {
+  color: brown;
+  border: 2px solid brown;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px; /* Increase font size for the section heading */
+}
+/* Add this CSS for the inline form fields */
+.inline-form-group {
+  display: flex;
+  gap: 60px; /* Space between the two inputs */
+  margin-bottom: 10px; /* Space below the inline group */
+}
+
+.inline-form-group .form-group {
+  flex: 1;
+}
+
+.inline-form-group .form-group input {
+  width: 100%; /* Make inputs take full width of their container */
+  padding: 10px; /* Adjust padding for both inputs */
+  font-size: 18px; /* Adjust font size for input text */
+}
+/* Inline layout for date and time fields */
+.date-time-group, .location-rate-group {
+  display: flex;
+  gap: 30px; /* Space between the inputs */
+  margin-bottom: 20px; /* Space below the group */
+}
+
+.date-time-group .form-group, .location-rate-group .form-group {
+  flex: 1;
+}
+
+.date-time-group .form-group input, .location-rate-group .form-group input {
+  width: 50%; /* Make inputs take full width of their container */
+  padding: 10px; /* Adjust padding for both inputs */
+  font-size: 14px; /* Adjust font size for input text */
+}
+
+/* Optional: Adjust margin for better spacing if needed */
+.form-group {
+  margin-bottom: 0; /* Remove bottom margin from individual groups */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Adjust form layout to be more readable */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px; /* Increase font size for labels */
+}
+
+.form-group input {
+  width: 50%;
+  padding: 12px; /* Increase padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Increase font size for input text */
+}
+
+.section-divider {
+  border: none;
+  border-top: 2px solid gray;
+  margin: 0px 0;
+}
+
+.time-location-section {
+  margin-top: 20px;
+}
+
+.time-location-details {
+  margin-bottom: 15px;
+}
+
+.time-location-details label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px; /* Increase font size for labels */
+}
+
+.time-location-details input {
+  width: 100%;
+  padding: 12px; /* Increase padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Increase font size for input text */
+  margin-bottom: 10px;
+}
+
+.location-rate {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.location-rate label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px; /* Increase font size for labels */
+}
+
+.location-rate select {
+  width: 100%;
+  padding: 12px; /* Increase padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Increase font size for select text */
+}
+
+.form-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.form-actions button {
+  padding: 12px 20px; /* Increase padding for better button size */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px; /* Increase font size for button text */
+}
+
+.form-actions button[type="submit"] {
+  background-color: #007bff; /* Blue */
+}
+
+.form-actions button[type="button"] {
+  background-color: #ccc; /* Gray */
+}
+
+
+.car-details-section {
+  margin-top: 10px;
+  
+  padding: 20px; /* Add padding to give space inside the section */
+  background-color: #f0f0f0; /* Light gray background color */
+  border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.car-details-section h3 {
+  font-size: 20px;
+  margin: 10px 0 10px 10px;
+  margin-bottom: 10px;
+  color: #333; /* Darker text color for better contrast */
+}
+
+.car-details-buttons {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+}
+
+.car-details-button {
+  background-color: gray; 
+  border: 1px solid gray; 
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+  color: #ffffff; /* White text color */
+}
+
+.car-details-button:hover {
+  background-color: #2cc767; /* Darker blue on hover */
+  border: 1px solid #2cc767;
+}
+
+.car-icon {
+  font-size: 20px;
+}
+/* Settings Section */
+.settings-section {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9; /* Light gray background color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.settings-section h4 {
+  font-weight: bold; /* Bold font for section title */
+  margin: 0 0 10px 10px; /* Margin for the title */
+  color: #333; /* Darker text color for contrast */
+}
+
+.settings-content {
+  border: 2px solid #ddd; /* Border around the entire content */
+  padding: 10px; /* Padding inside the border */
+  border-radius: 8px; /* Rounded corners for the border box */
+}
+
+.settings-box {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between content and checkbox */
+}
+
+.settings-info {
+  display: flex;
+  gap: 20px; /* Space between inline h5 elements */
+  border-bottom: 2px solid #ddd; /* Border below the heading section */
+  padding-bottom: 10px;
+  flex: 1; /* Allow this section to take available space */
+}
+
+.settings-info h5 {
+  margin: 0; /* Remove default margin from h5 elements */
+  font-size: 16px; /* Font size for h5 */
+  color: #333; /* Text color */
+}
+
+.settings-checkbox {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+.settings-checkbox input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+.settings-checkbox label {
+  display: flex;
+  flex-direction: column; 
+}
+
+.settings-checkbox h5 {
+  margin: 0; 
+  font-size: 16px; 
+  color: #333; 
+}
+
+.settings-checkbox h6 {
+  margin: 5px 0 0; 
+  font-size: 14px; 
+  color: #666; 
+}

@@ -1,0 +1,40 @@
+.sidebar {
+  width: 250px;
+  background-color: #111a16;
+  color: white;
+  height: 250vh;
+  padding: 20px;
+}
+
+.sidebar h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.sidebar ul li:hover {
+  background-color: #2cc767;
+}
+
+.sidebar ul li i {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.sidebar ul li span {
+  font-size: 24px;
+}

@@ -1,0 +1,125 @@
+.reservation-container {
+  padding: 20px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-section h2 {
+  margin: 0;
+  font-size: 30px; 
+  color: #333;
+}
+
+.login-icon {
+  color: #333;
+  font-size: 34px; 
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px; 
+  flex-grow: 0.5; 
+  margin-right: 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px; 
+  font-size: 18px; 
+  flex-grow: 1;
+}
+
+.search-icon {
+  color: #333;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px; 
+  cursor: pointer;
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.action-button:hover {
+  background-color: #333;
+}
+
+.add-button {
+  margin-left: 0;
+  background-color: #2cc767;;
+}
+.add-button:hover {
+  background-color: #1e9c50; 
+}
+
+.download-button {
+  margin-left: 10px;
+}
+
+.reservation-list table {
+  width: 100%; 
+  border-collapse: collapse;
+  font-size: 20px; 
+}
+
+.reservation-list th,
+.reservation-list td {
+  border: 1px solid #ccc;
+  padding: 16px; 
+  text-align: left;
+}
+
+.reservation-list th {
+  background-color: #f4f4f4;
+}
+
+.status-box {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 16px; 
+  border-radius: 4px;
+}
+
+.billing-paid .status-box {
+  color: #006400;
+  background-color: #90EE90;
+}
+
+.billing-pending .status-box {
+  color: #8B0000;
+  background-color: #F08080;
+}
+
+.billing-na .status-box {
+  color: #006400;
+  background-color: #98FB98;
+}
